@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name=viewport content="width=device-width, initial-scale = 1">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<link>
+<div class="header">
+    <p>Welcome to the Bloody Fight!</p>
+    <h2>Choose your character:</h2>
+</div>
+
+<div class="interface">
+    <a href="#" onclick="GameManager.setGameStart('Warrior')">
+        <img alt="warrior" src="img/warrior.png">
+    <div>
+        <h3>Warrior</h3>
+        <p>Warriors have higher health and strength.</p>
+    </div>
+    </a>
+
+    <a href="#" onclick="GameManager.setGameStart('Rogue')">
+        <img alt="rogue" src="img/rogue.png">
+        <div>
+            <h3>Rogue</h3>
+            <p>Rogues have higher speed and agility.</p>
+        </div>
+    </a>
+
+    <a href="#" onclick="GameManager.setGameStart('Archer')">
+        <img alt="archer" src="img/archer.png">
+
+        <div>
+            <h3>Archer</h3>
+            <p>Archers have higher health and agility.</p>
+        </div>
+    </a>
+
+    <a href="#" onclick="GameManager.setGameStart('Mage')">
+        <img alt="mage" src="img/mage.png">
+
+        <div>
+            <h3>Mage</h3>
+            <p>Mages have higher agility and speed.</p>
+        </div>
+    </a>
+    <a href="#" onclick="GameManager.setGameStart('Nuker')">
+        <img alt="nuker" src="img/nuker.png">
+        <div>
+            <h3>Nuker</h3>
+            <p>Nukers have higher health and strength.</p>
+        </div>
+    </a>
+    <a href="#" onclick="GameManager.setGameStart('Initiator')">
+        <img alt="initiator" src="img/initiator.png">
+        <div>
+            <h3>Initiator</h3>
+            <p>Initiators have higher health and strength.</p>
+        </div>
+    </a>
+</div>
+<div class="actions">
+
+</div>
+
+<div class="arena">
+
+</div>
+
+<div class="enemy">
+
+</div>
+<script src="js/enemy.js"></script>
+<script src="js/player.js"></script>
+<script src="js/gamemanager.js"></script>
+</body>
+</html>

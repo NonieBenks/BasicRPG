@@ -1,0 +1,180 @@
+
+@import url('https://fonts.googleapis.com/css?family=Francois+One&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Francois One', sans-serif;
+}
+
+img {
+    width: 160px;
+}
+
+body {
+    background-color: #ED7A28;
+}
+
+.header {
+    background-color: white;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.header p {
+    font-size: 45px;
+    color: #C5283D;
+    padding-bottom: 4px;
+}
+
+.header h2 {
+    font-size: 30px;
+    color: #FFC857;
+}
+
+.interface {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.interface a {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.interface img {
+    width: 150px;
+}
+
+.img-avatar {
+    width: 160px !important;
+    height: 180px !important;
+    background-color: #ED7A28;
+}
+
+.interface div {
+    width: 220px;
+    padding: 0 10px 0 20px;
+    background-color: #ED7A28;
+}
+
+.interface a:hover div {
+    transition: .4s ease-out;
+    background-color: #FF4C00;
+    color: #ffffff;
+}
+
+
+.interface h3 {
+    font-size: 22px;
+    color: #FFC857;
+    padding: 12px 0 4px;
+}
+
+.interface p {
+    font-size: 12px;
+    color: #d5c8af;
+    line-height: 20px;
+}
+
+.btn-prefight {
+    width: 100% !important;
+}
+.btn-prefight:hover {
+    zoom:1.05;
+    transition: .4s ease-out;
+}
+.actions {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.actions a {
+    width: 33.33%;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 14px;
+    color: #FFC857;
+}
+
+.actions a:nth-of-type(1) {
+    background-color: #C5283D;
+}
+
+.actions a:nth-of-type(2) {
+    background-color: #e6ce47;
+}
+
+.actions a:nth-of-type(3) {
+    background-color: #6de647;
+}
+
+.actions a:hover {
+    opacity: 0.9;
+}
+
+.arena {
+    width: 100%;
+    height: 180px;
+    background-image: url("img/arena-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: orangered;
+    background-size: 255vh;
+    visibility: hidden;
+}
+
+.enemy {
+    margin-top:20px;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #ED7A28;
+}
+
+.enemy a {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.enemy img {
+    width: 120px;
+    height: 120px;
+}
+
+.enemy div {
+    width: 220px;
+    padding: 0 10px 0 20px;
+    background-color: #ED7A28;
+}
+
+.enemy a:hover div {
+    background-color: #3c1d3d;
+}
+
+.enemy h3 {
+
+    font-size: 22px;
+    color: #FFC857;
+    padding: 12px 0 4px;
+}
+
+.enemy p {
+    font-size: 12px;
+    color: #d5c8af;
+    line-height: 20px;
+}
